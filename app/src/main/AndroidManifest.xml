@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APP_authetification"
+        tools:targetApi="31">
+        <activity
+            android:name=".ModifierObjectifSousTheme"
+            android:exported="false" />
+        <activity
+            android:name=".ConsulterObjectifSousTheme"
+            android:exported="false" />
+        <activity
+            android:name=".ConsulterObjectif"
+            android:exported="false" />
+        <activity
+            android:name=".ObjectifSousTheme"
+            android:exported="false" />
+        <activity
+            android:name=".ModifierObjectif"
+            android:exported="false" />
+        <activity
+            android:name=".Objectif"
+            android:exported="false" />
+        <activity
+            android:name=".acountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".modifierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".themeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Sous_themes"
+            android:exported="false" />
+        <activity
+            android:name=".compte"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".connect"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#0FC7FF"
+        android:elevation="4dp" />
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular_button_background"
+        android:text="+"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/button12"
+        android:layout_alignEnd="@id/button12"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/circular_button_background"
+        app:backgroundTint="#45A3FF"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewSec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button12"
+        android:layout_alignEnd="@id/button12"
+        android:layout_marginTop="-38dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="50dp"
+        android:text="Ajouter Objectif"
+        android:textColor="#221F1F"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/oua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button12"
+        android:layout_below="@id/toolbar2">
+
+        <FrameLayout
+            android:id="@+id/F2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Add the views you want to place inside F2 here -->
+
+        </FrameLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

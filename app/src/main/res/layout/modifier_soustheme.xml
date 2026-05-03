@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialogForgot"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialogBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="24dp">
+
+        <TextView
+            android:id="@+id/forgotTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lav_fill"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="Modififer un sous thème"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:text="Le titre du sous_thème:"
+            android:textColor="#0FC7FF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTitre_sous_Theme2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/forgotTitle" />
+
+        <EditText
+            android:id="@+id/editTitre_sous_Theme2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#0FC7FF"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/forgotTitle" />
+
+        <Button
+            android:id="@+id/btnannuler9"
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="8dp"
+            android:text="Annuler"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descri2" />
+
+        <Button
+            android:id="@+id/btnEnvoyer9"
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="Modifier"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descri2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="6dp"
+            android:text="Description:"
+            android:textColor="#0FC7FF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/editTitre_sous_Theme2"
+            app:layout_constraintTop_toBottomOf="@+id/editTitre_sous_Theme2" />
+
+        <EditText
+            android:id="@+id/descri2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#0FC7FF"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
