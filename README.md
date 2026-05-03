@@ -77,8 +77,8 @@ Deployment on Google Play Store
 👨‍💻 Authors
 Oualid OUARRACH
 Oussama ETTAOUIL
-🎓 Academic Context
 
+🎓 Academic Context
 Final Year Project (PFE)
 Bachelor’s Degree in Mathematics and Computer Science
 Faculty of Sciences, Agadir
@@ -86,7 +86,6 @@ Ibn Zohr University
 Academic Year: 2022–2023
 
 📄 License
-
 This project is licensed under the MIT License.
 
 
